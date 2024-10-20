@@ -1,0 +1,78 @@
+.prediction-market {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.create-prediction {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.create-prediction input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.prediction-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.bet-amounts {
+    display: flex;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.yes-amount,
+.no-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.yes-amount {
+    background-color: #4CAF50;
+}
+
+.no-amount {
+    background-color: #f44336;
+}
+
+.betting-controls,
+.resolve-controls {
+    margin-top: 10px;
+}
+
+.betting-controls input {
+    margin-right: 10px;
+    padding: 5px;
+}
